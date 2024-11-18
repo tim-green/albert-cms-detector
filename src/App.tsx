@@ -7,6 +7,11 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import DetectionResults from './components/DetectionResults';
 
+import Clarity from '@microsoft/clarity';
+
+const projectId = "p09ghfp1px"
+Clarity.init(projectId);
+
 function App() {
   const [url, setUrl] = useState('');
   const [result, setResult] = useState<CMSResult | null>(null);
