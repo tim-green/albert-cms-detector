@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.raleway-albert {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.logo{
+    font-family: "Raleway", serif;
+    font-weight: 800;
+    font-size: 3.1em;
+    cursor: pointer;
+}
+  .logo  {
+    /* // height: 50px; */
+    height: auto;
+    width: 250px;
+  }
+
+  .logo-svg{
+    transition: ease-in-out 450ms;
+    &:hover{
+      transition: ease-in-out 450ms;
+      filter: brightness(var(--value, 5)); --value: 0
+    }
+}
