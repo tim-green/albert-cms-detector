@@ -17,7 +17,8 @@ export async function detectCMS(url: string): Promise<CMSResult> {
     const fullUrl = `https://${url}`;
     
     // Use a CORS proxy to fetch the website content
-    const corsProxy = 'https://api.allorigins.win/raw?url=';
+    // const corsProxy = 'https://api.allorigins.win/raw?url=';
+    const corsProxy = 'https://api.codetabs.com/v1/proxy?quest=';
     const response = await fetch(corsProxy + encodeURIComponent(fullUrl));
     
     if (!response.ok) {
