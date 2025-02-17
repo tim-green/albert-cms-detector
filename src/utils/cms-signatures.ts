@@ -43,6 +43,7 @@ export const CMS_SIGNATURES: Record<string, CMSSignature> = {
       { description: 'BigCommerce product', regex: /bigcommerce\.com\/product/i, weight: 40 },
       { description: 'BigCommerce CDN', regex: /cdn11\.bigcommerce\.com/i, weight: 50 },
       { description: 'BigCommerce API', regex: /bigcommerce-api/i, weight: 30 },
+      //eslint-disable-next-line
       { description: 'BigCommerce identifier', regex: /\_\_bigcommerce_/i, weight: 30 }
     ]
   },
@@ -242,6 +243,7 @@ export const CMS_SIGNATURES: Record<string, CMSSignature> = {
       { description: 'Storyblok JavaScript client', regex: /storyblok-js-client/i, weight: 40 },
       { description: 'Storyblok API endpoint', regex: /storyblok\.com\/api/i, weight: 50 },
       { description: 'Storyblok rich text renderer', regex: /storyblok-rich-text-renderer/i, weight: 30 },
+      //eslint-disable-next-line
       { description: 'Storyblok component', regex: /\_storyblok/i, weight: 30 }
     ]
   },
