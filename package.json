@@ -29,8 +29,8 @@
     "eslint-plugin-react-refresh": "^0.5.3",
     "globals": "^17.7.0",
     "postcss": "^8.5.19",
-    "tailwindcss": "^4.3.2",
-    "@tailwindcss/postcss": "^4.3.2",
+    "tailwindcss": "^4.3.3",
+    "@tailwindcss/postcss": "^4.3.3",
     "typescript": "^7.0.2",
     "typescript-eslint": "^8.67.0",
     "vite": "^8.2.2"
